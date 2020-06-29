@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.header-color {
+background: #5ABFC1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5ABFC1, #5ABFC1, #5ABFC1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5ABFC1, #5ABFC1, #5ABFC1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main-bg {
+  background: #5ABFC1;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.landing-grid {
+background: rgba(255,255,255, 0.8);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(255,255,255, 0.8), rgba(255,255,255, 0.8), rgba(255,255,255, 0.8));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255, 0.8), rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: fixed;
+top: 12%;
+left: 12%;
+width: 75%;
+height: 75%;
+overflow: auto;
+}
+.img-content {
+  position: relative;
+  width: 97%;
+  height: 100%;
+  top: 8%;
+}
+.avatar-img {
+  position: relative;
+  top: 5%;
+  height: 500px;
+}
+
+
+.banner-text {
+  position: relative;
+  width: 97%;
+  height: 100%;
+  top: 25%;
+}
+
+.banner-text hr{
+  width: 50%;
+  margin: auto;
+  color: black;
+}
+.social-links {
+  padding-top: 15px;
+  display: flex;
+  /*justify-content: space-between;*/
+  width: 70%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.social-links i {
+  color: black;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.img-credit {
+  position: relative;
+  top: 10%;
+  font-size: 12px;
+}
+
+.img-credit a {
+  text-decoration: none;
+  color: #5ABFC1; 
+}
+
+.project-cell {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: white;
+  position: relative;
+  left: 2px;
+}
+
+.project-img img {
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.project-desc {
+  position: relative;
+  left: 12px;
+  padding-right: 10px;
+}
+
+.project-desc p {
+  text-align: center;
+  position: relative;
+  top: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#github-btn {
+  background-color: black;
+  position: relative;
+  top: -25px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile Devices, hide the image */
+@media (max-width:629px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+  .img-credit {
+    display: none;
+  }
+  .project-cell {
+    width: 80vw;
+  }
+}
+
+/* Tablets, change the location of image*/
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    img#optionalstuff {
+      top: 15%;
+      right: 22%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    img#optionalstuff {
+      top: 10%;
+      right: 0%;
+    }
+
+}
+
