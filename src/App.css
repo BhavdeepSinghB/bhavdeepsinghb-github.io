@@ -20,7 +20,7 @@ background: linear-gradient(to right, rgba(255,255,255, 0.8), rgba(255,255,255, 
 text-align: center;
 position: fixed;
 top: 12%;
-left: 12%;
+left: 10%;
 width: 75%;
 height: 75%;
 overflow: auto;
@@ -79,12 +79,9 @@ overflow: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-right: 10px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background-color: white;
-  position: relative;
-  left: 2px;
 }
 
 .project-img img {
@@ -99,6 +96,14 @@ overflow: auto;
   position: relative;
   left: 12px;
   padding-right: 10px;
+}
+
+.project-desc i {
+  color: black;
+  font-size: 3em;
+  padding-bottom: 10px;
+  position: relative;
+  top: -20px;
 }
 
 .project-desc p {
@@ -130,7 +135,7 @@ overflow: auto;
     display: none;
   }
   .project-cell {
-    width: 80vw;
+    width: 100%;
   }
 }
 

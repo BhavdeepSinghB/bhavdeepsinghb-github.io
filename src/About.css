@@ -1,0 +1,63 @@
+.landing-grid {
+    display: flex;
+    overflow: auto;
+    left: 13%;
+}
+
+.about-text {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.about-text p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.about-img {
+    padding-left: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+#computer-img {
+    width: 400px; 
+    height: 400px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .landing-grid {
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+        left: 0%;
+        width: 100%;
+    }
+
+    .about-img {
+        width: auto;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    #computer-img {
+        width: 200px;
+        height: 200px;
+        padding-left: 0px;
+    }
+
+    .about-text p {
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
