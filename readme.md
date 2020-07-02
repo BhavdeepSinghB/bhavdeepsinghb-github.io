@@ -6,5 +6,5 @@
 `git clone https://www.github.com/bhavdeepsinghb/bhavdeepsinghb.github.io`  
 `git checkout code`  
 `git pull`
-`npm install`  
+`npm install`<br>
 `npm start`  
