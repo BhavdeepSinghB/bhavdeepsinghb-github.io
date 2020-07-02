@@ -19,7 +19,7 @@ function App() {
             <Navigation>
                 <Link to={process.env.PUBLIC_URL + "/about"}>About</Link>
                 <Link to={process.env.PUBLIC_URL + "/projects"}>Projects</Link>
-                <Link to={process.env.PUBLIC_URL + "/resume"}>Resume</Link>
+                <Link to={process.env.PUBLIC_URL + "/resume"}>Resumé</Link>
                 <Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
             </Navigation>
             </Header>
@@ -29,7 +29,7 @@ function App() {
                 <Link to={process.env.PUBLIC_URL + "/"} onClick={closeDrawer}>Home</Link>
                 <Link to={process.env.PUBLIC_URL + "/about"} onClick={closeDrawer}>About</Link>
                 <Link to={process.env.PUBLIC_URL + "/projects"} onClick={closeDrawer}>Projects</Link>
-                <Link to={process.env.PUBLIC_URL + "/resume"} onClick={closeDrawer}>Resume</Link>
+                <Link to={process.env.PUBLIC_URL + "/resume"} onClick={closeDrawer}>Resumé</Link>
                 <Link to={process.env.PUBLIC_URL + "/contact"} onClick={closeDrawer}>Contact</Link>
             </Navigation>
         </Drawer>
