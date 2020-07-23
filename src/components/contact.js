@@ -20,11 +20,10 @@ class Contact extends Component {
                             Click on any of the buttons below to reach me.
                         </p>
                         <div className="contact-btns">
-                            <Button colored ripple id="email-btn">&nbsp;&nbsp;&nbsp;E-mail&nbsp;&nbsp;&nbsp;</Button>
-                            <Button colored ripple id="social-btn"><i class="fab fa-linkedin"></i> </Button>
-                            <Button colored ripple id="social-btn"><i class="fab fa-github"></i> </Button>
-                            <Button colored ripple id="social-btn"><i class="fab fa-twitter"></i> </Button>
-                            
+                            <a href="mailto: bhavdeepsingh2016@gmail.com" target="_blank" rel="noopener noreferrer"><Button colored ripple id="email-btn">&nbsp;&nbsp;&nbsp;E-mail&nbsp;&nbsp;&nbsp;</Button></a>
+                            <a href="https://linkedin.com/in/bhavdeepsinghb" target="_blank" rel="noopener noreferrer"><Button colored ripple id="social-btn"><i class="fab fa-linkedin"></i> </Button></a>
+                            <a href="https://github.com/bhavdeepsinghb" target="_blank" rel="noopener noreferrer"><Button colored ripple id="social-btn"><i class="fab fa-github"></i> </Button></a>
+                            <a href="https://twitter.com/bhavderpp" target="_blank" rel="noopener noreferrer"><Button colored ripple id="social-btn"><i class="fab fa-twitter"></i> </Button></a>
                         </div>
                     </div>
                 </div>

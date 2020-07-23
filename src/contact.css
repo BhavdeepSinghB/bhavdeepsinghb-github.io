@@ -45,3 +45,29 @@
     color: #5ABFC1;
     border-radius: 60px;
 }
+
+@media (max-width: 767px) {
+    .landing-grid {
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+    }
+    .contact-img-div {
+        display: none;
+    }
+
+    .contact-text {
+        margin-left: 35px;
+        margin-right: 100px;
+        width: 85%;
+        height: 100%;
+    }
+
+    .contact-text p {
+        margin-right: 0px;
+    }
+
+    .contact-btns {
+        margin-right: 0px;
+    }
+}
