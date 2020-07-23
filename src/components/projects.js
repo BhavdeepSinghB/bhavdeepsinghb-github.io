@@ -56,6 +56,20 @@ class Projects extends Component {
                             ></img> 
                         </div>
                         <div className="project-desc">
+                            <h3>PurgeTwitter</h3>
+                            <p>A Twitter application built to wipe out a user from the current user's Twitter profile. Takes care of cleaning your social fingerprints with the click of a button
+                            </p>
+                            <a href="https://github.com/BhavdeepSinghB/PurgeTwitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </Cell>
+                    <Cell col={this.columnNumber()} row={6} className="project-cell">
+                        <div className="project-img">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                             alt="python-img"
+                             id="python-img"
+                            ></img> 
+                        </div>
+                        <div className="project-desc">
                             <h3>TrainBot</h3>
                             <p>A Python based Discord bot to manage creation and distribution of beta invites for the morningstreams website</p>
                             <a href="https://github.com/BhavdeepSinghB/100DaysOfCode/tree/master/TrainBot" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>

@@ -12,7 +12,7 @@ class Contact extends Component {
                 <div className="contact-text">
                     <div>
                         <p>
-                            <h3>I'd love to hear from you</h3>
+                            <h3>I'd Love to Hear From You</h3>
                         </p>
                         <p>
                             Got a project you would like me to work on? Or how about just a friendly chat?

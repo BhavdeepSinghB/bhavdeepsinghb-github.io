@@ -34,11 +34,11 @@ function App() {
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
             <Main />
         </Content>
     </Layout>
-</div>
+    Made with <i class="fa-fab heart"></i> by Bhavdeep Singh
+    </div>
 );
 }
 

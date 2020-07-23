@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .landing-grid {
     display: flex;
     overflow: auto;
@@ -11,7 +13,7 @@
 }
 
 .about-text p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', Times, sans-serif;
     font-size: 24px;
     text-align: justify;
     padding-left: 60px;
@@ -19,7 +21,7 @@
 }
 
 .about-text h4 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', Times, sans-serif;
     font-size: 24px;
     text-align: justify;
     padding-left: 60px;
@@ -73,6 +75,8 @@
     }
     
     .about-text h4 {
+        padding-left: 0px;
+        padding-right: 0px;
         text-align: center;
         font-size: 25px;
     }
