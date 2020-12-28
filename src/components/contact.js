@@ -7,7 +7,7 @@ class Contact extends Component {
         return(
             <div className="landing-grid">
                 <div className="contact-img-div">
-                    <img src="https://i.imgur.com/ygVmkfA.png" id="self-contact-img" alt="img-of-self"/>
+                    <img src="https://i.imgur.com/OywPexR.jpg" id="self-contact-img" alt="img-of-self"/>
                 </div>
                 <div className="contact-text">
                     <div>

@@ -30,7 +30,8 @@ overflow: auto;
   position: relative;
   width: 97%;
   height: 100%;
-  top: 8%;
+  top: 5%;
+  right: 5%;
 }
 .avatar-img {
   position: relative;
@@ -134,7 +135,7 @@ background: linear-gradient(to right, rgba(255,255,255, 0.8), rgba(255,255,255, 
     display: none;
   }
   img#optionalstuff {
-    display: block;
+    display: none;
     width: 130px;
     height: 130px;
     position: relative;
@@ -148,20 +149,6 @@ background: linear-gradient(to right, rgba(255,255,255, 0.8), rgba(255,255,255, 
     width: 100%;
   }
 }
-
-@media (max-height: 670px) {
-  img#optionalstuff {
-    top: -45vh;
-  }
-}
-
-@media (max-height: 800px) {
-  img#optionalstuff {
-    top: -54vh;
-    left: 120px;
-  }
-}
-
 @media (max-width: 370px) {
   img#optionalstuff {
     left: 95px;

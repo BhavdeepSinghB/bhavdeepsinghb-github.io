@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .contact-img-div {
-    width: 45%;
+    width: 40%;
     display: flex;
     align-items: bottom;
 }
@@ -23,13 +23,13 @@
 }
 
 #self-contact-img {
-    width: 750px;
+    width: 32vw;
 }
 
 .contact-btns {
     display: flex;
     justify-content: space-around;
-    margin-right: 350px;
+    margin-right: 270px;
 }
 
 .contact-btns Button i{
